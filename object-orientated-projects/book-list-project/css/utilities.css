@@ -1,0 +1,150 @@
+/* Author: Kyan Keise  */
+/* Date: 30/04/22 */
+/* Title: Product landing page css */
+
+/* A <div> section in a document that is styled with CSS: */
+
+/* The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name. */
+
+/* The <ul> HTML element represents an unordered list of items, typically rendered as a bulleted list */
+
+/* The <li> HTML element is used to represent an item in a list. It must be contained in a parent element: an ordered list ( <ol> ), an unordered list ( <ul> ), or a menu ( <menu> ). In menus and unordered lists, list items are usually displayed using bullet points. */
+
+/* The <a> tag defines a hyperlink, which is used to link from one page to another.*/
+
+/* Basic CSS Style */
+
+:root {
+    --primary-color: #006241;
+    --secondary-color: #d50032;
+    --color-extra: #d4e9e2;
+    --black: #000;
+    --white: #fff;
+}
+
+/* Utlities */
+
+.btn {
+
+    display: inline-block;
+    background: none;
+    color: var(--white-color);
+    padding: 7px 16px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    border: 1px var(--black) solid;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 50px;
+
+}
+
+.btn-dark-outline {
+    border-color: var(--black);
+    color: var(--black);
+}
+
+.btn-dark-outline:hover {
+
+    background-color: rgba(0, 0, 0, 0.06);
+
+}
+
+.btn-light-outline:hover {
+
+    background-color: rgba(0, 0, 0, 0.06);
+
+}
+
+.btn-light-outline {
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.btn-dark {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.btn-dark:hover {
+    background-color: #333;
+}
+
+
+/* backgrounds */
+
+.bg-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+.bg-extra {
+    background-color: var(--color-extra);
+    color: var(--black);
+}
+
+.bg-dark {
+    background-color: var(--black);
+    color: var(--black);
+}
+
+/* Divider */
+
+.divider {
+    width: 95%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px auto;
+}
+
+
+
+/* Text styling */
+
+.text-center {
+    text-align: center;
+}
+
+.text-xl {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text-lg {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.text-md {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text-sm {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+/* Padding */
+
+.py-sm {
+    padding: 10px 0;
+}
+
+.py-md {
+    padding: 20px 0;
+}
+
+.py-lg {
+    padding: 40px 0;
+}
