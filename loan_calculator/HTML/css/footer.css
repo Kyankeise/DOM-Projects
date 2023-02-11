@@ -1,0 +1,51 @@
+/* Author: Kyan Keise  */
+/* Date: 30/04/22 */
+/* Title: Product landing page css */
+
+/* A <div> section in a document that is styled with CSS: */
+
+/* The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name. */
+
+/* The <ul> HTML element represents an unordered list of items, typically rendered as a bulleted list */
+
+/* The <li> HTML element is used to represent an item in a list. It must be contained in a parent element: an ordered list ( <ol> ), an unordered list ( <ul> ), or a menu ( <menu> ). In menus and unordered lists, list items are usually displayed using bullet points. */
+
+/* The <a> tag defines a hyperlink, which is used to link from one page to another.*/
+
+/* Basic CSS Style */
+
+
+/* Font style import goes here */
+
+:root {
+    --primary-color: #006241;
+    --secondary-color: #d50032;
+    --color-extra: #d4e9e2;
+    --black: #000;
+    --white: #fff;
+}
+
+/* Footer & Social */
+
+.footer-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px 30px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+}
+
+.social a {
+    text-decoration: none;
+    margin-right: 20px;
+}

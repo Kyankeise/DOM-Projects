@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<!-- Author: Kyan Keise -->
+<!-- Date: 30/05/2022 -->
+<!-- Title: Tasklist   -->
+<!-- duration on video: -->
+
+<!-- ..........................SHORTCUTS.......................................... -->
+
+<!-- Comment line -->
+
+<!-- # is alt + 3 -->
+
+<!-- Shortcut cmd + d = replace all -->
+
+<!-- Shortcut ex. section. creates new class/tag -->
+
+<!-- Shortcut ex. .div creates new div -->
+
+<!-- Comment shortcut cmd + / -->
+
+<!-- Source shortcut script + : -->
+
+<!-- Paste short cut shift + alt + down -->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontawesome Kit Code -->
+
+    <script src="https://kit.fontawesome.com/ad546c2219.js" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--My Custom CSS style sheet -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Task List</title>
+</head>
+
+<!-- Main body-->
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <span class="card-card-title">Task List</span>
+                        <div class="row">
+                            <form id="task-form">
+                                <div class="input-field col s12">
+                                    <input type="text" name="task" id="task">
+                                    <label for="task">New Task</label>
+                                </div>
+                                <input type="submit" value="Add Task" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <h5 id="task-title">Tasks</h5>
+                        <div class="input-field col s12">
+                            <input type="text" name="filter" id="filter">
+                            <label for="filter">Filter Tasks</label>
+                        </div>
+                        <ul class="collection"></ul>
+                        <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer class=""></footer>
+
+    <!-- Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- Materialize JavaScript -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
