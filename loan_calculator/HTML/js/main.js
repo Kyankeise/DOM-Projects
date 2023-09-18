@@ -1,6 +1,6 @@
 // Author: Kyan Keise
-// Date:
-// Title: 
+// Date: 20/06/2022
+// Title: Loan Calculator
 
 // Listen for submit
 
