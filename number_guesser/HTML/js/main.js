@@ -1,4 +1,10 @@
 /*
+Author: Kyan Keise
+Date: 09/06/2022
+Title: Number Guesser
+*/
+
+/*
 GAME FUNCTION:
 - Player must guess a number between a min and max
 - Player gets a certain amount of guesses
