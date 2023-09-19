@@ -1,3 +1,9 @@
+
+// Author: Kyan Keise
+// Date: 30/05/2022 
+// Title: Book List Project  ES6 Version
+
+
 class Book {
 
     constructor(title, author, isbn) {
