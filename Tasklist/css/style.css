@@ -1,6 +1,5 @@
-
 /* Author: Kyan Keise  */
-/* Date: 30/05/22 */
+/* Date: 06/06/23 */
 /* Title: TaskList */
 
 /* A <div> section in a document that is styled with CSS: */
@@ -17,15 +16,15 @@
 
 /* Font style import */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
 }
