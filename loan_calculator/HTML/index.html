@@ -4,7 +4,6 @@
 <!-- Date: 06/06/2022 -->
 <!-- Title: Loan Calculator   -->
 
-
 <!-- ..........................SHORTCUTS.......................................... -->
 
 <!-- Comment line -->
@@ -23,94 +22,131 @@
 
 <!-- Paste short cut shift + alt + down -->
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!--My Custom CSS style sheet -->
 
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Loan Calculator</title>
-</head>
+  </head>
 
-<body class="bg-dark">
+  <body class="bg-dark">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 mx-auto">
-                <div class="card card-body text-center mt-5">
-                    <h1 class="heading display-5 pb-4">Loan Calculator</h1>
-                    <form id="loan-form">
-                        <div class="form-group pb-2">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">£</span>
-                                <input type="number" class="form-control" id="amount" placeholder="Loan Amount">
-                            </div>
-                        </div>
-                        <div class="form-group pb-2">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">%</span>
-                                <input type="number" class="form-control" id="interest" placeholder="Interest">
-                            </div>
-                        </div>
-                        <div class="form-group pb-2">
-                            <input type="number" class="form-control" id="years" placeholder="Years to Repay">
-                        </div>
-                        <div class="form-group d-grid gap-2">
-                            <input type="submit" value="Calculate" class="btn btn-dark btn-block">
-                        </div>
-                       
-
-                    </form>
-                    <!-- LOADER HERE -->
-
-                    <div id="loading">
-                        <img src="images/loading.gif" alt="">
-                    </div>
-
-                    <!-- RESULTS -->
-                    <div id="results" class="pt-4">
-                        <h5>Results</h5>
-                        <div class="form-group pb-2">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">Monthly payment</span>
-                                <input type="number" class="form-control" id="monthly-payment" disabled>
-                            </div>
-                        </div>
-
-                        <div class="form-group pb-2">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">Total payment</span>
-                                <input type="number" class="form-control" id="total-payment" disabled>
-                            </div>
-                        </div>
-
-                        <div class="form-group pb-2">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">Total Interest</span>
-                                <input type="number" class="form-control" id="total-interest" disabled>
-                            </div>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card card-body text-center mt-5">
+            <h1 class="heading display-5 pb-4">Loan Calculator</h1>
+            <form id="loan-form">
+              <div class="form-group pb-2">
+                <div class="input-group mb-3">
+                  <span class="input-group-text">£</span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="amount"
+                    placeholder="Loan Amount"
+                  />
                 </div>
+              </div>
+              <div class="form-group pb-2">
+                <div class="input-group mb-3">
+                  <span class="input-group-text">%</span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="interest"
+                    placeholder="Interest"
+                  />
+                </div>
+              </div>
+              <div class="form-group pb-2">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="years"
+                  placeholder="Years to Repay"
+                />
+              </div>
+              <div class="form-group d-grid gap-2">
+                <input
+                  type="submit"
+                  value="Calculate"
+                  class="btn btn-dark btn-block"
+                />
+              </div>
+            </form>
+            <!-- LOADER HERE -->
+
+            <div id="loading">
+              <img src="images/loading.gif" alt="" />
             </div>
+
+            <!-- RESULTS -->
+            <div id="results" class="pt-4">
+              <h5>Results</h5>
+              <div class="form-group pb-2">
+                <div class="input-group mb-3">
+                  <span class="input-group-text">Monthly payment</span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="monthly-payment"
+                    disabled
+                  />
+                </div>
+              </div>
+
+              <div class="form-group pb-2">
+                <div class="input-group mb-3">
+                  <span class="input-group-text">Total payment</span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="total-payment"
+                    disabled
+                  />
+                </div>
+              </div>
+
+              <div class="form-group pb-2">
+                <div class="input-group mb-3">
+                  <span class="input-group-text">Total Interest</span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="total-interest"
+                    disabled
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -118,6 +154,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
